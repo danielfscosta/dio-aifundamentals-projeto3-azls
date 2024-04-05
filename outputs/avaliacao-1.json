@@ -1,0 +1,233 @@
+{
+    "documents": [
+        {
+            "id": "id__1537",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.49,
+                "neutral": 0.02,
+                "negative": 0.48
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.97,
+                        "neutral": 0.01,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 73,
+                    "text": "Quarto de bom tamanho, mas o banheiro precisa de manutenção nas paredes. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 0,
+                            "length": 6,
+                            "text": "Quarto",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 10,
+                            "length": 3,
+                            "text": "bom",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 10,
+                            "length": 11,
+                            "text": "bom tamanho",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.12,
+                        "neutral": 0.87,
+                        "negative": 0.01
+                    },
+                    "offset": 73,
+                    "length": 19,
+                    "text": "Quarto silencioso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 92,
+                    "length": 29,
+                    "text": "Café da manhã sem novidades. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.07,
+                        "negative": 0.93
+                    },
+                    "offset": 121,
+                    "length": 77,
+                    "text": "Mas o valor da diária é excessivo para o serviço e o equipamento oferecidos. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 127,
+                            "length": 5,
+                            "text": "valor",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 136,
+                            "length": 6,
+                            "text": "diária",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 162,
+                            "length": 7,
+                            "text": "serviço",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 174,
+                            "length": 11,
+                            "text": "equipamento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 145,
+                            "length": 9,
+                            "text": "excessivo",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 198,
+                    "length": 40,
+                    "text": "Valor de 5 estrelas e equipamentos de 3.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 220,
+                            "length": 12,
+                            "text": "equipamentos",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.98,
+                                "negative": 0.02
+                            },
+                            "offset": 207,
+                            "length": 10,
+                            "text": "5 estrelas",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
